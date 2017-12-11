@@ -1,17 +1,4 @@
 
-students = [
-  {name: "Dr. Hannibal Lecter", cohort: :may, hobby: :fishing},
-  {name: "Darth Vader", cohort: :january , hobby: :knitting},
-  {name: "Nurse Ratched", cohort: :november, hobby: :rowing},
-  {name: "Michael Corleone", cohort: :january, hobby: :scuba_diving},
-  {name: "Alex DeLarge", cohort: :november, hobby: :reading},
-  {name: "The Wicked Witch of the West", cohort: :november, hobby: :writing_haikus},
-  {name: "Terminator", cohort: :november, hobby: :fishing},
-  {name: "Freddy Krueger", cohort: :january, hobby: :trainspotting},
-  {name: "The Joker", cohort: :november , hobby: :voluntering},
-  {name: "Joffrey Baratheon", cohort: :december, hobby: :painting},
-  {name: "Norman Bates", cohort: :april, hobby: :knitting}
-]
 
 def input_students
   puts "Please enter the names of the students"
@@ -46,8 +33,26 @@ def print_footer(names)
 end
 
 
-students = input_students
-print_header(students)
-print_students(students)
-print_footer(students)
+def interactive_menu
+students = []
+loop do 
+  puts "1. Input the students"
+  puts "2. Show the students"
+  puts "9. Exit"
+  selection = gets.chomp.to_i
+  case selection 
+  when 1
+    students = input_students
+  when 2
+    print_header
+    print_students
+    print_footer
+  when 9
+     exit 
+  else 
+    puts "I don't know what you meant, try again"
+  end
+ end
+end
 
+interactive_menu
