@@ -4,9 +4,9 @@ This is a collection of the codewars questions I have attempted. For each of the
 
 I've also used this as an opportunity to practise my markdown usage. 
 
+Below are the topics, ordered by relative confidence. 
 
-Below are the topcis, ordered in level of confidence. 
-I'll also try and add details of things I have learnt on the topics. And any questions I still have. 
+Each is crossed off when I have completed 2 codewars problems on the topic. 
 
 ## Topics
 
@@ -14,7 +14,14 @@ I'll also try and add details of things I have learnt on the topics. And any que
 
 -[] **Focus: Procs**
 
--[] **Focus: Blocks**
+-[x] **Focus: Blocks**
+       Sites that were useful:
+       [How Yield Works](https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes)
+       [Passing Blocks to Methods](https://www.codecademy.com/en/forum_questions/51c72e759c4e9d410501df42)
+
+       Kata completed
+       - [Yield to the block ](https://www.codewars.com/kata/yield-to-the-block) 8kyu
+       - [Enumerable Magic](https://www.codewars.com/kata/enumerable-magic-number-7-find-a-matching-item/ruby) 7kyu
 
 -[] **Recursion**
 
