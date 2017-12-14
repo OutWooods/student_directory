@@ -27,11 +27,10 @@ end
 scrabble_score()
 
 def reads_programme
-	programme = ""
-	File.open("Self_reading_code.rb", "r"){|file| programme << file.read}
-	puts programme
+	puts File.open("Self_reading_code.rb", "r"){|file| file.read}
     puts "All done"
 end
+
 reads_programme
 
 #Programme Ends here
