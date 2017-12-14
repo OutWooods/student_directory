@@ -15,12 +15,19 @@ Each is crossed off when I have completed 2 codewars problems on the topic.
 -[] **Focus: Procs**
 
 -[x] **Focus: Blocks**
-        Sites that were useful: 
-         [How Yield Works](https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes) <enter>
-         [Passing Blocks to Methods](https://www.codecademy.com/en/forum_questions/51c72e759c4e9d410501df42) 
-         Yes
-         [Yield to the block](https://www.codewars.com/kata/yield-to-the-block)
-         [Enumerable Magic](https://www.codewars.com/kata/enumerable-magic-number-7-find-a-matching-item/ruby)
+         Sites that were useful: 
+          <br/> 
+         [How Yield Works](https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes)  
+         <br/>
+         [Passing Blocks to Methods](https://www.codecademy.com/en/forum_questions/51c72e759c4e9d410501df42)   
+         <br/>
+         <br/>
+         Kata Completed  
+         <br/> 
+         [Yield to the block](https://www.codewars.com/kata/yield-to-the-block)  
+         <br/>
+         [Enumerable Magic](https://www.codewars.com/kata/enumerable-magic-number-7-find-a-matching-item/ruby)  
+
 
 -[] **Recursion**
 
