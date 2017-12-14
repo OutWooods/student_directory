@@ -50,21 +50,21 @@ def choose_file
 end
 
 def load_students(filename= @student_file)
-   student_file = File.open(filename, "r")
-   student_file.readlines.each do |student_info|
-      name, cohort = student_info.chomp.split(",")    #could also save as an array, then make add_student take an array as an input but not sure this is beter/clearer
-      add_student(name, cohort)
-   end
-  student_file.close
+   File.open(filename, "r") do |student_list|
+        student_list.readlines.each do |student_info|
+             name, cohort = student_info.chomp.split(",")  
+        add_student(name, cohort)
+     end
+    end
   puts "Successfully loaded #{@students.count} from #{filename}"
 end
 
 
 def save_students(filename= @student_file)
-  file = File.open(filename, "w")
-  @students.each {|student|  file.puts "#{student[:name]}, #{student[:cohort]}" }
-  file.close
-  puts "Successfully saved students to #{filename}"
+   File.open(filename, "w") do |student_list|
+     @students.each {|student|  student_list.puts "#{student[:name]}, #{student[:cohort]}"}
+   end
+   puts "Successfully saved students to #{filename}"
 end
 
 
