@@ -5,7 +5,7 @@ This is my project for Makers Academy, where we've built a student directory.
 
 If you want to see my answers to section 14, 
 
-- [x] Exercise 1:
+- [x] [Exercise 1:](https://github.com/Tagrand/student_directory/blob/89b2262bd030272bdd1dd6208f434062d0da2f92/typos.rb) 
 - [x] Exercise 2:
 - [x] Exercise 3:
 - [x] Exercise 4:
