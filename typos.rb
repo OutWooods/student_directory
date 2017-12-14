@@ -1,4 +1,4 @@
-
+require 'csv'
 @students = []
 @student_file =  "students.csv"
 
@@ -50,19 +50,17 @@ def choose_file
 end
 
 def load_students(filename= @student_file)
-   File.open(filename, "r") do |student_list|
-        student_list.readlines.each do |student_info|
-             name, cohort = student_info.chomp.split(",")  
+   CSV.foreach("students.csv") do |student|
+        name, cohort = student.map(&:lstrip) 
         add_student(name, cohort)
-     end
-    end
+      end
   puts "Successfully loaded #{@students.count} from #{filename}"
 end
 
 
 def save_students(filename= @student_file)
-   File.open(filename, "w") do |student_list|
-     @students.each {|student|  student_list.puts "#{student[:name]}, #{student[:cohort]}"}
+    CSV.open("students.csv", "w") do |row|
+      @students.each {|student|  row << [student[:name], student[:cohort]]}
    end
    puts "Successfully saved students to #{filename}"
 end
