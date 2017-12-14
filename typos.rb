@@ -4,13 +4,13 @@
 def try_load_students
   filename = ARGV.first
   if filename.nil? 
-   load_students
+    load_students
   elsif File.exists?(filename)
     load_students(filename)
     puts "Loaded #{@students.count} from #{filename}"
   else 
-    puts "Sorry, #{filename} doesn't exist."
-    exit 
+    puts "Sorry, #{filename} doesn't exist. Exiting programme..."
+    exit
   end
 end
 
@@ -18,41 +18,36 @@ def add_student(name, cohort)
     @students << {name: name, cohort: cohort.to_sym}
 end 
 
-def input_students
-  puts "Please enter the names of the students"
-  puts "To finish, just hit return"
-  name = STDIN.gets.chomp
- 
-  until name.empty? 
-    add_student(name, "November")
-    puts "Now we have #{@students.count} students"
-    na9me = STDIN.gets.chomp
-  end
-  @students 
-end
-
-
 def load_students(filename= "students.csv")
    file = File.open(filename, "r")
    file.readlines.each do |student_info|
-      name, cohort = student_info.chomp.split(",")
-       add_student(name, cohort)
+      name, cohort = student_info.chomp.split(",")    #could also save as an array, then make add_student take an array as an input
+      add_student(name, cohort)
    end
   file.close
 end
 
 
+
+def input_students
+  puts "Please enter the names of the students", "To finish, just hit return"
+  name = STDIN.gets.chomp
+
+  until name.empty? 
+    add_student(name, "November")
+    puts "Now we have #{@students.count} students"
+    name = STDIN.gets.chomp
+  end
+
+end
+
+
 def print_header
-  return false if @students.empty? 
-  puts "The students of my cohort at Makers Academy"
-  puts "-------------"
+  puts "The students of my cohort at Makers Academy", "-------------"
 end
 
 def print_student_list
- return false if @students.empty? 
-  @students.each do |student|
-    puts "#{student[:name]} (#{student[:cohort]} cohort)"
-  end
+  @students.each{|student| puts "#{student[:name]} (#{student[:cohort]} cohort)"}
 end
 
 def print_footer
@@ -68,6 +63,7 @@ def print_menu
 end
 
 def show_students
+  return puts "There are no students registered at Makers" if @students.empty? 
   print_header
   print_student_list
   print_footer
@@ -76,39 +72,27 @@ end
 
 def process(selection)
    case selection
-     when 1
-     input_students
-     when 2
-     show_students
-     when 3
-     save_students 
-     when 4
-     load_students 
-     when 9
-     exit
-     else
-     puts "I don't know what you mean, try again"
+     when 1 then input_students
+     when 2 then show_students
+     when 3 then save_students 
+     when 4 then load_students 
+     when 9 then exit
+     else puts "I don't know what you mean, try again"
   end
 end
 
 def save_students
   file = File.open("students.csv", "w")
-
-  @students.each do |student|
-    student_data = [student[:name], student[:cohort]]
-    csv_line = student_data.join(",")
-    file.puts csv_line
-  end
-
+  @students.each {|student|  file.puts "#{student[:name]}, #{student[:cohort]}" }
   file.close
 end
 
 
 def interactive_menu
-loop do 
   print_menu
   process(STDIN.gets.chomp.to_i)
- end
+  puts
+  interactive_menu    #made the code just recursive, as it shortened it and the loop seemed unnessary
 end
 
 try_load_students
