@@ -1,9 +1,9 @@
-# student_directory
+# Student Directory
 
 
 This is my project for Makers Academy, where we've built a student directory. 
 
-If you want to see my answers to section 14, 
+If you want to see my answers to section 14 click below: 
 
 - [Exercise 1](https://github.com/Tagrand/student_directory/blob/89b2262bd030272bdd1dd6208f434062d0da2f92/typos.rb) 
 - [Exercise 2](https://github.com/Tagrand/student_directory/blob/f10884c368a31ba72058cb9c83f5cc27e8ada51f/typos.rb)
@@ -17,8 +17,3 @@ If you want to see my answers to section 14,
 
 If you want to read further exciting go to [my codewars work](Codewars.md)
 
-## How to use 
-
-``` shell
-ruby directory.rb
-```
