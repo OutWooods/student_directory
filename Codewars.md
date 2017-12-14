@@ -10,40 +10,41 @@ Each is crossed off when I have completed 2 codewars problems on the topic.
 
 ## Topics ##
 
--[] **Focus: Lambdas** 
+- [] **Focus: Lambdas** 
 
--[] **Focus: Procs**
+- [] **Focus: Procs**
 
--[x] **Focus: Blocks**
-         Sites that were useful: 
+- [x] **Focus: Blocks**
+         <br /> 
+         -Sites that were useful: 
           <br/> 
-         [How Yield Works](https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes)  
+           -[How Yield Works](https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes)  
          <br/>
-         [Passing Blocks to Methods](https://www.codecademy.com/en/forum_questions/51c72e759c4e9d410501df42)   
+           -[Passing Blocks to Methods](https://www.codecademy.com/en/forum_questions/51c72e759c4e9d410501df42)   
          <br/>
          <br/>
-         Kata Completed  
+         -Kata Completed  
          <br/> 
-         [Yield to the block](https://www.codewars.com/kata/yield-to-the-block)  
+           -[Yield to the block](https://www.codewars.com/kata/yield-to-the-block)  
          <br/>
-         [Enumerable Magic](https://www.codewars.com/kata/enumerable-magic-number-7-find-a-matching-item/ruby)  
+           -[Enumerable Magic](https://www.codewars.com/kata/enumerable-magic-number-7-find-a-matching-item/ruby)  
 
 
--[] **Recursion**
+- [] **Recursion**
 
--[] **Symbols**
+- [] **Symbols**
 
--[] **Hashes**
+- [] **Hashes**
 
--[] **Control flows**
+- [] **Control flows**
 
--[] **Arrays**
+- [] **Arrays**
 
--[] **Methods** 
+- [] **Methods** 
 
--[] **Variables**
+- [] **Variables**
 
--[] **String Interpolation**
+- [] **String Interpolation**
 
--[] **Booleans**
+- [] **Booleans**
 
