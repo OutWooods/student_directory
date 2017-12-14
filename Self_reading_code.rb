@@ -27,12 +27,11 @@ end
 scrabble_score()
 
 def reads_programme
-	File.open("Self_reading_code.rb", "r") do |file|
-		file.readlines.each do |line| 	puts line  end
-		puts "All done"
-	   end
-end	   
-
+	programme = ""
+	File.open("Self_reading_code.rb", "r"){|file| programme << file.read}
+	puts programme
+    puts "All done"
+end
 reads_programme
 
 #Programme Ends here
