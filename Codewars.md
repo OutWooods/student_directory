@@ -3,7 +3,7 @@
 This is a collection of the codewars questions I have attempted for each of the learning objectives
 of week four of the Makers Academy pre-course.
 
-Since we've just covered markdown, I've also used this as an opportunity to apply what I've learnt. 
+Since we've just covered markdown, this seemed a good time practise the skill. 
 
 Below are the topics, ordered by relative confidence, with links to the kata that connect to the topic. 
 I've also added links to websites that I found useful. 
