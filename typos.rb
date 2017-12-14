@@ -1,33 +1,32 @@
 @students = []
-
+@student_file = "students.csv"
 
 def try_load_students
   filename = ARGV.first
   if filename.nil? 
-    load_students
+    puts load_students
   elsif File.exists?(filename)
-    load_students(filename)
-    puts "Loaded #{@students.count} from #{filename}"
+    puts load_students(filename)
   else 
-    puts "Sorry, #{filename} doesn't exist. Exiting programme..."
+    puts "Sorry, #{filename} doesn't exist"
     exit
   end
+end
+
+
+def load_students(filename= @student_file)
+   student_file = File.open(filename, "r")
+   student_file.readlines.each do |student_info|
+      name, cohort = student_info.chomp.split(",")    #could also save as an array, then make add_student take an array as an input
+      add_student(name, cohort)
+   end
+  student_file.close
+  puts "Successfully loaded #{@students.count} from #{filename}"
 end
 
 def add_student(name, cohort)
     @students << {name: name, cohort: cohort.to_sym}
 end 
-
-def load_students(filename= "students.csv")
-   file = File.open(filename, "r")
-   file.readlines.each do |student_info|
-      name, cohort = student_info.chomp.split(",")    #could also save as an array, then make add_student take an array as an input
-      add_student(name, cohort)
-   end
-  file.close
-end
-
-
 
 def input_students
   puts "Please enter the names of the students", "To finish, just hit return"
@@ -38,7 +37,7 @@ def input_students
     puts "Now we have #{@students.count} students"
     name = STDIN.gets.chomp
   end
-
+  puts "Finish inputting"
 end
 
 
@@ -57,8 +56,9 @@ end
 def print_menu
   puts "1. Input the students"
   puts "2. Show the students"
-  puts "3. Save student data to students.csv"
-  puts "4. Load student data from students.csv"
+  puts "3. Save student data to #{@student_file}"
+  puts "4. Load student data from #{@student_file}"
+ 
   puts "9. Exit"
 end
 
@@ -67,24 +67,33 @@ def show_students
   print_header
   print_student_list
   print_footer
-  puts
 end
 
+
+
 def process(selection)
-   case selection
-     when 1 then input_students
-     when 2 then show_students
-     when 3 then save_students 
-     when 4 then load_students 
-     when 9 then exit
-     else puts "I don't know what you mean, try again"
+    case selection
+     when 1 
+      input_students
+     when 2 
+      show_students
+     when 3 
+      save_students 
+     when 4 
+      load_students 
+     when 9
+      puts "Exiting programme..." 
+      exit
+     else 
+      puts "I don't know what you mean, try again"
   end
 end
 
 def save_students
-  file = File.open("students.csv", "w")
+  file = File.open(@student_file, "w")
   @students.each {|student|  file.puts "#{student[:name]}, #{student[:cohort]}" }
   file.close
+  puts "Successfully saved students to #{@student_file}"
 end
 
 
