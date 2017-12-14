@@ -1,12 +1,13 @@
 # Codewars Learning Objectives # 
 
-This is a collection of the codewars questions I have attempted. For each of the learning objectives. 
+This is a collection of the codewars questions I have attempted for each of the learning objectives
+of week four of the Makers Academy pre-course.
 
-I've also used this as an opportunity to practise my markdown usage. 
+Since we've just covered markdown, I've also used this as an opportunity to apply what I've learnt. 
 
-Below are the topics, ordered by relative confidence. I'll also add links to websites that I found useful. 
+Below are the topics, ordered by relative confidence, with links to the kata that connect to the topic. 
+I've also added links to websites that I found useful. 
 
-Each is crossed off when I have completed 2 codewars problems on the topic. 
 
 ## Topics ##
 
@@ -21,7 +22,6 @@ Each is crossed off when I have completed 2 codewars problems on the topic.
      - Kata Completed  
      	- [Yield to the block](https://www.codewars.com/kata/yield-to-the-block)  
      	- [Enumerable Magic](https://www.codewars.com/kata/enumerable-magic-number-7-find-a-matching-item/ruby)  
-
 
 - [ ] **Recursion**
 
