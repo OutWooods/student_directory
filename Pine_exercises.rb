@@ -1,25 +1,17 @@
-#Grandfather clock 
+#Programme Logger
 
-#Attempt at the grandfather problem form Chris Pine
-#https://pine.fm/LearnToProgram/chap_10.html exercise 1
-#With a method that returns a proc (proc call)
+#Attempt at the programme logger form Chris Pine
+#https://pine.fm/LearnToProgram/chap_10.html exercise 2
 
 
-def grandfather_clock(some_proc)
-    n = Time.now.hour % 12 == 0 ? 12 : Time.now.hour
-    n.times {some_proc.call}
+def programme_logger (programme,proc)
+   puts "#{programme} has started at #{Time.now}"
+   proc.call
+   puts "#{programme} has finished at #{Time.now}"
 end
 
-def two_procs(proc1, proc2)
-	Proc.new do 
-	proc1.call
-	proc2.call
-    end
-end
 
-chime = Proc.new {puts "DONG!"}
-ring = Proc.new {puts "Ding!"}
-ding_dong = two_procs(chime, ring)
+One_to_nine_permutations = Proc.new {[1,2,3,4,5,6,7,8,9,10].permutation.to_a}
 
 
-grandfather_clock(ding_dong)
+programme_logger("Permutations", One_to_nine_permutations)
