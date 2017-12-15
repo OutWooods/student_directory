@@ -10,19 +10,17 @@ def programme_logger (programme,proc)
    puts "#{@padding}#{programme} has started at #{Time.now}"
    @padding += " " * padding_length
    proc.call
-   @padding.slice!(0,padding_length)
+   @padding.slice!(0, padding_length)
    puts "#{@padding}#{programme} has finished at #{Time.now}"
  
 end
 
-add_to_1000 = Proc.new do 
-	     (1..1000).reduce(&:+)
-	   end
+add_to_1000 = Proc.new {(1..1000).reduce(&:+)}
 
 multiply_to_1000 = Proc.new do 
-	       programme_logger("add_to_1000", add_to_1000)
-	       (1..1000).reduce(&:*) 
-	       end
+	               programme_logger("add_to_1000", add_to_1000)
+	               (1..1000).reduce(&:*) 
+	               end
 
 one_to_nine_permutations = Proc.new do 
 	                       programme_logger("multiply_to_1000", multiply_to_1000)
