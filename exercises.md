@@ -1,4 +1,4 @@
-# Makers Exercises (Week 4)# 
+# Makers Exercises (Week 4)   
 
 This is a collection of the codewars questions I have attempted for each of the learning objectives. *Note: I also did Chris Pine
 exercises. Which is why the file name has changed*
@@ -20,9 +20,9 @@ I've also added links to websites that I found useful.
 	  - [Good guide, especially earlier parts, but gets denser later on](https://pine.fm/LearnToProgram/chap_10.html)
 	  - [Good definition of procs, and helpful for exercises](https://docs.ruby-lang.org/en/2.0.0/Proc.html)
 	- Pine Questions Completed [see exercises](https://docs.ruby-lang.org/en/2.0.0/Proc.html)
-	  -[Grandfather Clock, Ex: 1](https://github.com/Tagrand/student_directory/blob/bd9da928c031617d9f06ea845afac1c80de78cdc/Pine_exercises.rb)
-	  -[Programme Logger, Ex: 2](https://github.com/Tagrand/student_directory/blob/33e20ddeba77ace5b841361766ca05c9d89d02b5/Pine_exercises.rb)
-	  -[Programme Logger, Ex: 3](https://github.com/Tagrand/student_directory/blob/27665a71fe7af63d833970f163dee23dd65d1c8b/Pine_exercises.rb)
+		-[Grandfather Clock, Ex: 1](https://github.com/Tagrand/student_directory/blob/bd9da928c031617d9f06ea845afac1c80de78cdc/Pine_exercises.rb)
+		-[Programme Logger, Ex: 2](https://github.com/Tagrand/student_directory/blob/33e20ddeba77ace5b841361766ca05c9d89d02b5/Pine_exercises.rb)
+		-[Programme Logger, Ex: 3](https://github.com/Tagrand/student_directory/blob/27665a71fe7af63d833970f163dee23dd65d1c8b/Pine_exercises.rb)
 - [x] **Focus: Blocks**
 	- Sites that were useful: 
     	- [How Yield Works](https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes)  
