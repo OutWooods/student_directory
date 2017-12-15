@@ -15,5 +15,5 @@ If you want to see my answers to section 14 click below:
 - [Exercise 8](https://github.com/Tagrand/student_directory/blob/aaacc20fd377beb2700db580af73a895f8e08d46/typos.rb)
 
 
-If you want to read further exciting go to [my codewars work](Codewars.md)
+If you want to read further exciting go to [exercises from learning objectives](exercises.md)
 
