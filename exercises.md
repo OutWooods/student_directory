@@ -8,6 +8,8 @@ Since we've just covered markdown, this seemed a good time practise the skill.
 Below are the topics, ordered by relative confidence, with links to the kata that connect to the topic. 
 I've also added links to websites that I found useful. 
 
+\*\***NOTE I have not added solutions to the kata, you can only see my solutions...if you complete them.**\*\*
+
 
 ## Topics ##
 *I found alot of sites lumped Lambdas, Pocs, and Blocks together. Since these concepts are quite similar, this makes it quite confusing
@@ -27,7 +29,7 @@ I started with Blocks, then Procs, then Lambdas as I found Blocks simplest and L
 	- Sites that were useful:
 	  - [Good guide, especially earlier parts, but gets denser later on](https://pine.fm/LearnToProgram/chap_10.html)
 	  - [Good definition of procs, and helpful for exercises](https://docs.ruby-lang.org/en/2.0.0/Proc.html)
-	- Pine Questions Completed, techically they're for blocks, but procs work too. [See exercises.](https://docs.ruby-lang.org/en/2.0.0/Proc.html)
+	- Pine Questions Completed, techically they're for blocks, but procs work too. Go [here]((https://docs.ruby-lang.org/en/2.0.0/Proc.html)) if you want to see the exercises.
 		- [Grandfather Clock, Ex: 1](https://github.com/Tagrand/student_directory/blob/bd9da928c031617d9f06ea845afac1c80de78cdc/Pine_exercises.rb)
 		- [Programme Logger, Ex: 2](https://github.com/Tagrand/student_directory/blob/33e20ddeba77ace5b841361766ca05c9d89d02b5/Pine_exercises.rb)
 		- [Programme Logger, Ex: 3](https://github.com/Tagrand/student_directory/blob/27665a71fe7af63d833970f163dee23dd65d1c8b/Pine_exercises.rb)
@@ -54,7 +56,8 @@ I started with Blocks, then Procs, then Lambdas as I found Blocks simplest and L
 - [ ] **Control flows**
 
 - [ ] **Arrays**
-      - [Uses arrays and Hashes](https://www.codewars.com/kata/battle-ships-sunk-damaged-or-not-touched/ruby)
+  - Kata Completed  
+     - [Uses arrays and Hashes](https://www.codewars.com/kata/battle-ships-sunk-damaged-or-not-touched/ruby) High level, quite tricky. 
 - [ ] **Methods** 
 
 - [ ] **Variables**
