@@ -19,7 +19,7 @@ I started with Blocks, then Procs, then Lambdas as I found Blocks simplest and L
       - [Best basic explanation (make sure you're confident on procs first)](http://culttt.com/2015/05/13/what-are-lambdas-in-ruby/)
       - [Useful info about how Lambda's work](http://blog.honeybadger.io/using-lambdas-in-ruby/)
       - [Good section on curry, not perfect but best explanation I've found](https://gist.github.com/Integralist/9994331)
-    - Kata Completed  
+  - Kata Completed  
         - [Name That Integer](http://www.codewars.com/kata/name-that-integer/train/ruby) 
         - [Lambdas as a mechanism for Open/Closed](http://www.codewars.com/kata/lambdas-as-a-mechanism-for-open-slash-closed/ruby)
         - [Function Composition](http://www.codewars.com/kata/function-composition/ruby) (This was great for understanding how procs differ from lambdas in taking arguements.)
@@ -41,7 +41,12 @@ I started with Blocks, then Procs, then Lambdas as I found Blocks simplest and L
      	- [Enumerable Magic](https://www.codewars.com/kata/enumerable-magic-number-7-find-a-matching-item/ruby)  
 
 - [ ] **Recursion**
-
+  - Sites that were useful:
+      - [Good intro](http://vaidehijoshi.github.io/blog/2014/12/14/to-understand-recursion-you-must-first-understand-recursion/)
+      - [Very challenging, but interesting](http://eloquentjavascript.net/03_functions.html) This is in Javascript. But if you can grasp it (I think I do...in a sense) it gives a really nice example of more complex recursion. But its quite tricky, it took me several reads, re-reads to vaguely grasp it. 
+  - Kata Completed  
+        - [Directions reduction](http://www.codewars.com/kata/directions-reduction/train/ruby)  *Can be solved without recursion, but the recusrive answer's quite nice*
+        - 
 - [ ] **Symbols**
 
 - [ ] **Hashes**
@@ -49,7 +54,7 @@ I started with Blocks, then Procs, then Lambdas as I found Blocks simplest and L
 - [ ] **Control flows**
 
 - [ ] **Arrays**
-
+      - [Uses arrays and Hashes](https://www.codewars.com/kata/battle-ships-sunk-damaged-or-not-touched/ruby)
 - [ ] **Methods** 
 
 - [ ] **Variables**
