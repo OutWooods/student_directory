@@ -6,9 +6,9 @@ kata on particular learning objectives.
 We were also introduced to markdown this week, so am also using this as an opportunity to practise it! Below I've included links to websites I found useful to learning about different aspects of ruby, and codewars kata/other exercises I found were useful to consolidate these skills. I've generally avoided providing answers so you can have a go yourself. 
 
 ## Ruby topics 
-Topics are listed in order of when I covered them. Blocks, Procs and Lambda's are the three I was least confident with so I started with them first. From my experience, this order worked well as Blocks link to Procs, and Procs link to Lambdas.
+Topics are listed in order of when I covered them. blocks, procs and lambda's are the three I was least confident with so I started with them first. From my experience, this order worked well as blocks link to procs, and procs link to lambdas.
 
-*Tip: I found it helped to spend 3 separate days on each and not move on until I felt fully confident. So I did one day on blocks, in depth, then when I was confident I moved onto Procs. So I didn't get the concepts confused.*
+*Tip: I found it helped to spend 3 separate days on blocks, procs and lambda's and not move on until I felt fully confident. So I did one day on blocks, in depth, then when I was confident I moved onto procs. So I didn't get the concepts confused.*
 
 - [x] **Focus: Blocks**
 	- Sites that were useful: 
@@ -33,7 +33,7 @@ Topics are listed in order of when I covered them. Blocks, Procs and Lambda's ar
       - [Useful info about how Lambda's work](http://blog.honeybadger.io/using-lambdas-in-ruby/)
       - [Good section on curry, not perfect but best explanation I've found](https://gist.github.com/Integralist/9994331)
   - Kata Completed  
-        - [Name That Integer](http://www.codewars.com/kata/name-that-integer/train/ruby) 
+       - [Name That Integer](http://www.codewars.com/kata/name-that-integer/train/ruby) 
         - [Lambdas as a mechanism for Open/Closed](http://www.codewars.com/kata/lambdas-as-a-mechanism-for-open-slash-closed/ruby)
         - [Function Composition](http://www.codewars.com/kata/function-composition/ruby) (This was great for understanding how procs differ from lambdas in taking arguements.)
 
@@ -45,8 +45,7 @@ Topics are listed in order of when I covered them. Blocks, Procs and Lambda's ar
       - [Good intro](http://vaidehijoshi.github.io/blog/2014/12/14/to-understand-recursion-you-must-first-understand-recursion/)
       - [Very challenging, but interesting](http://eloquentjavascript.net/03_functions.html) This is in Javascript. But if you can grasp it (I think I do...in a sense) it gives a really nice example of more complex recursion. But its quite tricky, it took me several reads, re-reads to vaguely grasp it. 
   - Kata Completed  
-        - [Directions reduction](http://www.codewars.com/kata/directions-reduction/train/ruby)  *Can be solved without recursion, but the recusrive answer's quite nice*
-        - 
+       - [Directions reduction](http://www.codewars.com/kata/directions-reduction/train/ruby)  *Can be solved without recursion, but the recusrive answer's quite nice.*
 - [ ] **Symbols**
 
 - [ ] **Hashes**
