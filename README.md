@@ -71,9 +71,9 @@ I started with Blocks, then Procs, then Lambdas as I found Blocks simplest and L
 
 ## Student directory
 
-One tas
-For my final answers to 
-If you want to see my answers to section 14 click below: 
+The other task was to build a student directory for students at Villans and Makers Academy. This started with a simple ruby structure but then went on to use csv files to store and add data to the programme. If you want to see my final answer go to [solution](typos.rb). 
+
+And if you want to see my answers to the exercises in section 14:
 
 - [Exercise 1](https://github.com/Tagrand/student_directory/blob/89b2262bd030272bdd1dd6208f434062d0da2f92/typos.rb) 
 - [Exercise 2](https://github.com/Tagrand/student_directory/blob/f10884c368a31ba72058cb9c83f5cc27e8ada51f/typos.rb)
@@ -84,6 +84,4 @@ If you want to see my answers to section 14 click below:
 - [Exercise 7](https://github.com/Tagrand/student_directory/blob/e986e199ea7312d61b7d7ed0e467e00eebf2f13c/typos.rb)
 - [Exercise 8](https://github.com/Tagrand/student_directory/blob/aaacc20fd377beb2700db580af73a895f8e08d46/typos.rb)
 
-
-If you want to read further exciting go to [exercises from learning objectives](exercises.md)
 
