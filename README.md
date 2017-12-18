@@ -1,8 +1,16 @@
-# Student Directory
+# Week 4 Project (for [Makers Academy](https://github.com/makersacademy)
 
+This is my work for Makers Academy Pre-course, week 4 where we've built a student directory and had to complete codewars 
+kata on particular learning objectives. 
 
-This is my project for Makers Academy, where we've built a student directory. 
+We were also introduced to markdown this week, so am also using this as an opportunity to practise it! Below I've included linkts to websites I found useful to learning about different aspects of ruby, and codewars kata/other exercises I thought were good ways to consolidate this learning. I've generally avoided providing answers so you can have a go yourself. 
 
+## Ruby topics 
+
+## Student directory
+
+One tas
+For my final answers to 
 If you want to see my answers to section 14 click below: 
 
 - [Exercise 1](https://github.com/Tagrand/student_directory/blob/89b2262bd030272bdd1dd6208f434062d0da2f92/typos.rb) 
