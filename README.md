@@ -22,7 +22,7 @@ Topics are listed in order of when I covered them. blocks, procs and lambda's ar
 	- Sites that were useful:
 	  - [Good guide, especially earlier parts, but gets denser later on](https://pine.fm/LearnToProgram/chap_10.html)
 	  - [Good definition of procs, and helpful for exercises](https://docs.ruby-lang.org/en/2.0.0/Proc.html)
-	- Pine Questions Completed, techically they're for blocks, but procs work too. Go [here]((https://docs.ruby-lang.org/en/2.0.0/Proc.html)) if you want to see the exercises.
+	- Pine Questions Completed, techically they're for blocks, but procs work too. Go [here](https://docs.ruby-lang.org/en/2.0.0/Proc.html) if you want to see the exercises. Down below are my solutions:
 		- [Grandfather Clock, Ex: 1](https://github.com/Tagrand/student_directory/blob/bd9da928c031617d9f06ea845afac1c80de78cdc/Pine_exercises.rb)
 		- [Programme Logger, Ex: 2](https://github.com/Tagrand/student_directory/blob/33e20ddeba77ace5b841361766ca05c9d89d02b5/Pine_exercises.rb)
 		- [Programme Logger, Ex: 3](https://github.com/Tagrand/student_directory/blob/27665a71fe7af63d833970f163dee23dd65d1c8b/Pine_exercises.rb)
