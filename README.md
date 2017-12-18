@@ -8,7 +8,7 @@ We were also introduced to markdown this week, so am also using this as an oppor
 ## Ruby topics 
 Topics are listed in order of when I covered them. blocks, procs and lambda's are the three I was least confident with so I started with them first. From my experience, this order worked well as blocks link to procs, and procs link to lambdas.
 
-*Tip: I found it helped to spend 3 separate days on blocks, procs and lambda's and not move on until I felt fully confident. So I did one day on blocks, in depth, then when I was confident I moved onto procs. So I didn't get the concepts confused.*
+*Tip: I found it helped to spend 3 separate days on blocks, procs and lambda's and not move on until I felt fully confident. So I did one day on blocks, in depth, then when I was confident I moved onto procs. So I didn't get the concepts confused. So I have generally  tried to reccomended sites talk about one on its own. Although its hard to find stuff that talks about **only** procs.*
 
 - [x] **Focus: Blocks**
 	- Sites that were useful: 
@@ -63,10 +63,6 @@ Topics are listed in order of when I covered them. blocks, procs and lambda's ar
 
 - [ ] **Booleans**
 
-
-*I found alot of sites lumped Lambdas, Pocs, and Blocks together. Since these concepts are quite similar, this makes it quite confusing
-so I have generally reccomended sites that try and talk about one on its own. Although its hard to find stuff that talks about **only** procs.
-I started with Blocks, then Procs, then Lambdas as I found Blocks simplest and Lambdas hardest.*
 
 
 ## Student directory
