@@ -6,9 +6,11 @@ kata on particular learning objectives.
 We were also introduced to markdown this week, so am also using this as an opportunity to practise it! Below I've included links to websites I found useful to learning about different aspects of ruby, and codewars kata/other exercises I found were useful to consolidate these skills. I've generally avoided providing answers so you can have a go yourself. 
 
 ## Ruby topics 
-Topics are listed in order of when I covered them. blocks, procs and lambda's are the three I was least confident with so I started with them first (still don't fully understand the difference). But from my experience, I found going blocks, then procs and then lambdas worked best as blocks link to procs and procs link to lambdas. I also found it helped to look at each topic separately, and spead it out over several days.    
+Topics are listed in order of when I covered them. 
 
-*Note: If you sot any other good sites do let me know (especially sites that talk about **just** procs, they're hard to find), still not 100% confident on bpl's*
+The three I most struggled with (and still do) are blocks, procs and lambda's, so I started with them first. I found what worked well, was starting with blocks, then procs and then lambdas as blocks link to procs and procs link to lambdas. I also found it helped to look at each topic separately, when I did all the topics at once, my mind started to melt...  
+
+
 
 - [x] **Focus: Blocks**
 	- Sites that were useful: 
