@@ -8,9 +8,7 @@ We were also introduced to markdown this week, so am also using this as an oppor
 ## Ruby topics 
 Topics are listed in order of when I covered them. 
 
-The three I most struggled with (and still do) are blocks, procs and lambda's, so I started with them first. I found what worked well, was starting with blocks, then procs and then lambdas as blocks link to procs and procs link to lambdas. I also found it helped to look at each topic separately, when I did all the topics at once, my mind started to melt...  
-
-
+The three I most struggled with (and still do) are blocks, procs and lambda's - as they're so similar, but all subtly difficult. I found what worked well, was starting with blocks, then procs and then lambdas as blocks link to procs and procs link to lambdas. What helped me most was looking at each topic separately, doing some kata/questions on it, then moving on. When I did all the topics at once, my mind started to melt...  
 
 - [x] **Focus: Blocks**
 	- Sites that were useful: 
@@ -47,7 +45,7 @@ The three I most struggled with (and still do) are blocks, procs and lambda's, s
       - [Good intro](http://vaidehijoshi.github.io/blog/2014/12/14/to-understand-recursion-you-must-first-understand-recursion/)
       - [Very challenging, but interesting](http://eloquentjavascript.net/03_functions.html) This is in Javascript. But if you can grasp it (I think I do...in a sense) it gives a really nice example of more complex recursion. But its quite tricky, it took me several reads, re-reads to vaguely grasp it. 
   - Kata Completed  
-       - [Directions reduction](http://www.codewars.com/kata/directions-reduction/train/ruby)  *Can be solved without recursion, but the recusrive answer's quite nice.*
+       - [Directions reduction](http://www.codewars.com/kata/directions-reduction/train/ruby)  *Can be solved without recursion*
 - [ ] **Symbols**
 
 - [ ] **Hashes**
