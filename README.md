@@ -40,12 +40,13 @@ The three I most struggled with (and still do) are blocks, procs and lambda's - 
 
 
 
-- [ ] **Recursion**
+- [x] **Recursion**
   - Sites that were useful:
       - [Good intro](http://vaidehijoshi.github.io/blog/2014/12/14/to-understand-recursion-you-must-first-understand-recursion/)
       - [Very challenging, but interesting](http://eloquentjavascript.net/03_functions.html) This is in Javascript. But if you can grasp it (I think I do...in a sense) it gives a really nice example of more complex recursion. But its quite tricky, it took me several reads, re-reads to vaguely grasp it. 
-  - Kata Completed  
-       - [Directions reduction](http://www.codewars.com/kata/directions-reduction/train/ruby)  *Can be solved without recursion*
+  - Kata Completed  *Can be solved without recursion, but they look nice*
+       - [Directions reduction](http://www.codewars.com/kata/directions-reduction/train/ruby)  
+       - [Roman Numerals Decoder](https://www.codewars.com/kata/roman-numerals-decoder/train/ruby)
 - [ ] **Symbols**
 
 - [ ] **Hashes**
@@ -80,4 +81,4 @@ And if you want to see my answers to the exercises in section 14:
 - [Exercise 7](https://github.com/Tagrand/student_directory/blob/e986e199ea7312d61b7d7ed0e467e00eebf2f13c/typos.rb)
 - [Exercise 8](https://github.com/Tagrand/student_directory/blob/aaacc20fd377beb2700db580af73a895f8e08d46/typos.rb)
 
-
+git 
