@@ -38,14 +38,14 @@ Topics are listed in order of when I covered them. blocks, procs and lambda's ar
         - [Function Composition](http://www.codewars.com/kata/function-composition/ruby) (This was great for understanding how procs differ from lambdas in taking arguements.)
 
 
-
-
-- [ ] **Recursion**
+- [x] **Recursion**
   - Sites that were useful:
       - [Good intro](http://vaidehijoshi.github.io/blog/2014/12/14/to-understand-recursion-you-must-first-understand-recursion/)
       - [Very challenging, but interesting](http://eloquentjavascript.net/03_functions.html) This is in Javascript. But if you can grasp it (I think I do...in a sense) it gives a really nice example of more complex recursion. But its quite tricky, it took me several reads, re-reads to vaguely grasp it. 
-  - Kata Completed  
-       - [Directions reduction](http://www.codewars.com/kata/directions-reduction/train/ruby)  *Can be solved without recursion, but the recusrive answer's quite nice.*
+  - Kata Completed   *Both can be solved without recursion, but I think recursive works more like to how I'd have solved them myself.*
+       - [Directions reduction](http://www.codewars.com/kata/directions-reduction/train/ruby) 
+       - [Roman Numerals Converter](https://www.codewars.com/kata/roman-numerals-decoder/train/ruby)  
+       
 - [ ] **Symbols**
 
 - [ ] **Hashes**
